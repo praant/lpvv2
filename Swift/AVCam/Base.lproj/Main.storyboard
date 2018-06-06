@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="asl-iI-zvz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="asl-iI-zvz">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -769,6 +770,7 @@
                         <outlet property="cancelBouton" destination="ggP-X3-v1r" id="UiH-CF-5Qq"/>
                         <outlet property="connexionBouton" destination="fb5-5O-10d" id="Btv-f8-XYb"/>
                         <outlet property="loginCreateChoice" destination="Rv6-IW-kCO" id="ffq-TU-dLw"/>
+                        <outlet property="mailLabel" destination="NLl-mZ-7eW" id="zhw-aq-UCp"/>
                         <outlet property="registerBouton" destination="m5F-lg-Jsd" id="Saf-ni-usF"/>
                     </connections>
                 </viewController>

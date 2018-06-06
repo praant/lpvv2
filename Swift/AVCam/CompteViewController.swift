@@ -20,6 +20,8 @@ class CompteViewController: UIViewController {
     @IBOutlet weak var onCancel: UIButton!
     @IBOutlet weak var cancelBouton: UIButton!
     @IBOutlet weak var connexionBouton: UIButton!
+    @IBOutlet weak var mailLabel: UILabel!
+    
     var mainViewController:AccueilViewController?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -239,17 +241,25 @@ class CompteViewController: UIViewController {
         connexionBouton.isEnabled = false
         registerBouton.isEnabled = false
         if loginCreateChoice.selectedSegmentIndex == CaptureMode.login.rawValue {
-            registerBouton.isEnabled = false
+            self._email.isHidden = true
+            self.mailLabel.isHidden = true
             self.loginCreateChoice.isEnabled = true
             self.connexionBouton.isEnabled = true
-        print("login")
+            self.connexionBouton.isHidden = false
+            self.registerBouton.isEnabled = false
+            self.registerBouton.isHidden = true
+            
             
         } else if loginCreateChoice.selectedSegmentIndex == CaptureMode.create.rawValue {
             connexionBouton.isEnabled = false
-            
+            self._email.isHidden = false
+            self.mailLabel.isHidden = false
+            self._email.isEnabled = true
             self.loginCreateChoice.isEnabled = true
             self.registerBouton.isEnabled = true
-            print("xreate")
+            self.connexionBouton.isHidden = true
+            self.registerBouton.isEnabled = true
+            self.registerBouton.isHidden = false
         }
         
     }
@@ -270,6 +280,7 @@ class CompteViewController: UIViewController {
     
     
 
+    
 }
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
