@@ -1,6 +1,0 @@
-framework module Lumina {
-  umbrella header "Lumina-umbrella.h"
-
-  export *
-  module * { export * }
-}
