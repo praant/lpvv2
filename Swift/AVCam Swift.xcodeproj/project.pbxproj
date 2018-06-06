@@ -14,11 +14,10 @@
 		2A5F597E208338D00047AC0C /* ChoixSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F597D208338D00047AC0C /* ChoixSportViewController.swift */; };
 		2A5F598020833AA90047AC0C /* AccueilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F597F20833AA90047AC0C /* AccueilViewController.swift */; };
 		2A72E4CC20A710FC00B70B5E /* choixProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E4CB20A710FC00B70B5E /* choixProtocol.swift */; };
-		2AA97D482083940B00E32F05 /* CompteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA97D472083940B00E32F05 /* CompteViewController.swift */; };
+		2A92318E20C8784E00D43A2E /* CompteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92318D20C8784E00D43A2E /* CompteViewController.swift */; };
 		2AA97D4A2083970400E32F05 /* TendancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA97D492083970400E32F05 /* TendancesViewController.swift */; };
 		2AA97D4E20839F9800E32F05 /* VisionnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA97D4D20839F9800E32F05 /* VisionnerViewController.swift */; };
 		2AA97D502083CAA000E32F05 /* choixMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA97D4F2083CAA000E32F05 /* choixMatchViewController.swift */; };
-		2AE44AA920B61E7F0033593B /* background_foot.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2AE44AA820B61E7F0033593B /* background_foot.mp4 */; };
 		2AE44AAB20B620B20033593B /* background_foot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2AE44AAA20B620B20033593B /* background_foot.gif */; };
 		7AA677151CFF765600B353FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA677141CFF765600B353FB /* AppDelegate.swift */; };
 		7AA677171CFF765600B353FB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA677161CFF765600B353FB /* CameraViewController.swift */; };
@@ -50,11 +49,10 @@
 		2A5F597D208338D00047AC0C /* ChoixSportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChoixSportViewController.swift; path = AVCam/ChoixSportViewController.swift; sourceTree = SOURCE_ROOT; };
 		2A5F597F20833AA90047AC0C /* AccueilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccueilViewController.swift; path = AVCam/AccueilViewController.swift; sourceTree = SOURCE_ROOT; };
 		2A72E4CB20A710FC00B70B5E /* choixProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choixProtocol.swift; sourceTree = "<group>"; };
-		2AA97D472083940B00E32F05 /* CompteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteViewController.swift; sourceTree = "<group>"; };
+		2A92318D20C8784E00D43A2E /* CompteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompteViewController.swift; sourceTree = "<group>"; };
 		2AA97D492083970400E32F05 /* TendancesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TendancesViewController.swift; path = AVCam/TendancesViewController.swift; sourceTree = SOURCE_ROOT; };
 		2AA97D4D20839F9800E32F05 /* VisionnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionnerViewController.swift; sourceTree = "<group>"; };
 		2AA97D4F2083CAA000E32F05 /* choixMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choixMatchViewController.swift; sourceTree = "<group>"; };
-		2AE44AA820B61E7F0033593B /* background_foot.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background_foot.mp4; sourceTree = SOURCE_ROOT; };
 		2AE44AAA20B620B20033593B /* background_foot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = background_foot.gif; sourceTree = "<group>"; };
 		3E25DCAF1F7EA506007EF37E /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = ../../LICENSE.txt; sourceTree = "<group>"; };
 		7AA677111CFF765600B353FB /* AVCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,11 +115,10 @@
 				2A092DA820BC947F0082791B /* essai.png */,
 				2A092DA620BC946C0082791B /* but.png */,
 				2A092DA420BC94560082791B /* panier.png */,
-				2AE44AA820B61E7F0033593B /* background_foot.mp4 */,
+				2A92318D20C8784E00D43A2E /* CompteViewController.swift */,
 				2AE44AAA20B620B20033593B /* background_foot.gif */,
 				2A095F0C20AB6E3100D4885F /* TableController.swift */,
 				2A72E4CB20A710FC00B70B5E /* choixProtocol.swift */,
-				2AA97D472083940B00E32F05 /* CompteViewController.swift */,
 				2A5F597D208338D00047AC0C /* ChoixSportViewController.swift */,
 				2A5F597F20833AA90047AC0C /* AccueilViewController.swift */,
 				7AA677141CFF765600B353FB /* AppDelegate.swift */,
@@ -226,7 +223,6 @@
 				2A092DA920BC94800082791B /* essai.png in Resources */,
 				2AE44AAB20B620B20033593B /* background_foot.gif in Resources */,
 				7AA6771F1CFF765600B353FB /* LaunchScreen.storyboard in Resources */,
-				2AE44AA920B61E7F0033593B /* background_foot.mp4 in Resources */,
 				7AA6771C1CFF765600B353FB /* Assets.xcassets in Resources */,
 				2A092DA520BC94570082791B /* panier.png in Resources */,
 				7AA6771A1CFF765600B353FB /* Main.storyboard in Resources */,
@@ -244,7 +240,6 @@
 				7AA677271CFF774800B353FB /* PhotoCaptureDelegate.swift in Sources */,
 				2AA97D4E20839F9800E32F05 /* VisionnerViewController.swift in Sources */,
 				7AA677291CFF7B5C00B353FB /* PreviewView.swift in Sources */,
-				2AA97D482083940B00E32F05 /* CompteViewController.swift in Sources */,
 				7AA677171CFF765600B353FB /* CameraViewController.swift in Sources */,
 				2AA97D4A2083970400E32F05 /* TendancesViewController.swift in Sources */,
 				2A72E4CC20A710FC00B70B5E /* choixProtocol.swift in Sources */,
@@ -252,6 +247,7 @@
 				2A5F597E208338D00047AC0C /* ChoixSportViewController.swift in Sources */,
 				2AA97D502083CAA000E32F05 /* choixMatchViewController.swift in Sources */,
 				2A5F598020833AA90047AC0C /* AccueilViewController.swift in Sources */,
+				2A92318E20C8784E00D43A2E /* CompteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,11 +393,7 @@
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7S88ZQYM64;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/AVCam/Swift",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) ";
 				INFOPLIST_FILE = AVCam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -423,11 +415,7 @@
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7S88ZQYM64;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/AVCam/Swift",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) ";
 				INFOPLIST_FILE = AVCam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

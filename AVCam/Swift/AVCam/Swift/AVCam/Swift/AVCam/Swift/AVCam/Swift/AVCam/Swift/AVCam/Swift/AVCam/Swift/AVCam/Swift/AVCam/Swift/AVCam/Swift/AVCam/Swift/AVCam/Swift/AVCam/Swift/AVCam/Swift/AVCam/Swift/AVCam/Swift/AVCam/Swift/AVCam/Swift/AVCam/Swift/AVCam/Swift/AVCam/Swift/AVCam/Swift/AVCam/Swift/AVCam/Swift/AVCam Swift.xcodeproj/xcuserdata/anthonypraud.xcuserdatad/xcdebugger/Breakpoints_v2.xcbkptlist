@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVCam/CompteViewController.swift"
+            timestampString = "548496017.299764"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "dologin(_user:_pwd:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AVCam.CompteViewController.dologin(_user: Swift.String, _pwd: Swift.String) -&gt; ()"
+                  moduleName = "AVCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonypraud/Desktop/AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies%202/Swift/AVCam/CompteViewController.swift"
+                  timestampString = "548457382.513309"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__ObjC.URLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AVCam.CompteViewController.dologin(_user: Swift.String, _pwd: Swift.String) -&gt; ()"
+                  moduleName = "AVCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonypraud/Desktop/AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies%202/Swift/AVCam/CompteViewController.swift"
+                  timestampString = "548457382.622398"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
