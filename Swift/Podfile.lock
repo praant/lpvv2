@@ -1,0 +1,16 @@
+PODS:
+  - Lumina (1.2.1)
+
+DEPENDENCIES:
+  - Lumina
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Lumina
+
+SPEC CHECKSUMS:
+  Lumina: 8e27565633df88111745bbd25269d667a2fd69dc
+
+PODFILE CHECKSUM: 6b00c4dacc9657a6e6f8de2b74394dc1d0ab3199
+
+COCOAPODS: 1.5.2

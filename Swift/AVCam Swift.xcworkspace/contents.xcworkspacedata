@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:giphy.gif">
+   </FileRef>
+   <FileRef
+      location = "group:background_foot.mp4">
+   </FileRef>
+   <FileRef
+      location = "group:AVCam Swift.xcodeproj">
+   </FileRef>
+</Workspace>
