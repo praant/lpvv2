@@ -4,9 +4,9 @@ LPV-IOS  use the AVFoundation capture API to record movies.
 ## Overview
 
 The movie view  has a record button for recording movies and 3 buttons for choosing last 15 seconds of the action type you want:
-Goal
-fail
-or wow moment  
+-Goal
+-Fail
+-Wow
 
 ## Requirements
 
