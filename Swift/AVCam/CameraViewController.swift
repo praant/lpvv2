@@ -130,8 +130,14 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
         
         sessionQueue.async {
             let movieFileOutput = AVCaptureMovieFileOutput()
-            
-            if self.session.canAddOutput(movieFileOutput) {
+         //APR 20180612 
+            let vsTotalSeconds = 900			//Total seconds
+            let vspreferredTimeScale = 30	//Frames per second
+            let vsmaxDuration = CMTimeMakeWithSeconds(Float64(vsTotalSeconds), Int32(vspreferredTimeScale))	//<<SET MAX DURATION
+            movieFileOutput.maxRecordedDuration = vsmaxDuration
+            movieFileOutput.minFreeDiskSpaceLimit = 1024 * 1024*30						//<<SET MIN FREE SPACE IN BYTES FOR RECORDING TO CONTINUE ON A VOLUME
+            //fin APR20180612 
+         if self.session.canAddOutput(movieFileOutput) {
                 self.session.beginConfiguration()
                 self.session.addOutput(movieFileOutput)
                 self.session.sessionPreset = .high
