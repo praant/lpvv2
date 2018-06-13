@@ -131,7 +131,7 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
         sessionQueue.async {
             let movieFileOutput = AVCaptureMovieFileOutput()
          //APR 20180612 
-            let vsTotalSeconds = 900			//Total seconds
+            let vsTotalSeconds = 300		//Total seconds
             let vspreferredTimeScale = 30	//Frames per second
             let vsmaxDuration = CMTimeMakeWithSeconds(Float64(vsTotalSeconds), Int32(vspreferredTimeScale))	//<<SET MAX DURATION
             movieFileOutput.maxRecordedDuration = vsmaxDuration
